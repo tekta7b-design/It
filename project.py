@@ -14,12 +14,12 @@ def tyu():
 def mac():
     for b in todo: 
       print(b) 
-    c= input("Choose:")
+    c = input("Choose:")
     todo.remove(c) 
     co.append(c) 
     
 def front(): 
-    print("hello welcome back to task tracker!☺️")
+    print("hello welcome back to task tracker!")
     print("=== TO-DO LIST ===") 
     for b in todo: 
         print(b)
@@ -36,7 +36,7 @@ def front():
     c = input("choose from 1 to 5):") 
     if c == "1": 
         new() 
-        print("Task added✅")
+        print("Task added")
     elif c == "2": mrt() 
     elif c == "3": tyu() 
     elif c == "4": mac() 
